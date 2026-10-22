@@ -1,0 +1,11 @@
+# DP Maker
+
+Free, open source event DP maker. Pure HTML/JS, no backend, no login.
+
+1. Open "Set up frame": upload your flyer/frame, drag to mark the photo area, then "Download event file".
+2. Put that file at `frames/default.json` before uploading the site, so everyone lands on your event.
+   (Or attendees can use "Load event file".)
+3. Attendees choose a photo, pick Circle / Square / Plain / Plain, no background, then download.
+
+Frame tip: a PNG with a transparent hole places the photo behind it; a full flyer places the photo on top.
+Background removal uses @imgly/background-removal from a CDN (needs internet the first time).
